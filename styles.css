@@ -1,0 +1,20 @@
+
+
+.btn {
+    margin-bottom: 5vh;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.alert {
+    margin-bottom: 5vh;
+}
+
+body {
+    background-image: url(./images/loft-living-room-interior-design.jpg);
+    background-size: cover;
+}
