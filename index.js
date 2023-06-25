@@ -12,22 +12,16 @@ function getPerson() {
   $("#date").html("Heute ist " + now);
 
   switch (weekToPerson) {
-    case 1:
-      $("#output").html(
-        "Heute putzt Malik Bad. Bedo Diele und Treppen. Göko Küche."
-      );
-
-      break;
-    case 2:
-      $("#output").html(
-        "Heute putzt Malik Diele und Treppen. Bedo Küche. Göko Bad."
-      );
-      break;
-    case 0:
-      $("#output").html(
-        "Heute putzt Malik Küche. Bedo Bad. Göko Diele und Treppen."
-      );
-    default:
-      break;
-  }
+  case 1:
+    $("#output").html("Heute putzt Malik Bad. Bedo Diele und Treppen. Göko Küche.");
+    break;
+  case 2:
+    $("#output").html("Heute putzt Malik Diele und Treppen. Bedo Küche. Göko Bad.");
+    break;
+  case 0:
+    $("#output").html("Heute putzt Malik Küche. Bedo Bad. Göko Diele und Treppen.");
+    break;
+  default:
+    break;
 }
+
